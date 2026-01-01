@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: sylvia0226-del/angelas-secret-history
+  name: git-gateway
   branch: main
-  base_url: https://api.netlify.com
 
 media_folder: "study-site/uploads"
 public_folder: "/study-site/uploads"
