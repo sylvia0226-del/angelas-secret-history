@@ -1,0 +1,79 @@
+backend:
+  name: github
+  repo: sylvia0226-del/angelas-secret-history
+  branch: main
+  base_url: https://api.netlify.com
+
+media_folder: "study-site/uploads"
+public_folder: "/study-site/uploads"
+
+collections:
+  - name: "study"
+    label: "Study Content"
+    files:
+      - name: "content"
+        label: "Site Content"
+        file: "study-site/data.json"
+        format: "json"
+        fields:
+          - label: "Site"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Weekly Focus", name: "weeklyFocus", widget: "string" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Today English", name: "todayEnglish", widget: "string" }
+              - { label: "Today Math", name: "todayMath", widget: "string" }
+          - label: "English Items"
+            name: "english"
+            widget: "object"
+            fields:
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Type", name: "type", widget: "select", options: ["Listen", "Read", "Write", "Speak"] }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Note", name: "note", widget: "string", required: false }
+                  - { label: "Link", name: "link", widget: "string", required: false }
+          - label: "Math"
+            name: "math"
+            widget: "object"
+            fields:
+              - { label: "Level", name: "level", widget: "string" }
+              - { label: "Focus", name: "focus", widget: "string", required: false }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Note", name: "note", widget: "string", required: false }
+                  - { label: "Link", name: "link", widget: "string", required: false }
+          - label: "Resources"
+            name: "resources"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Note", name: "note", widget: "string", required: false }
+              - { label: "Link", name: "link", widget: "string", required: false }
+          - label: "Calendar"
+            name: "calendar"
+            widget: "list"
+            fields:
+              - { label: "Day", name: "day", widget: "string" }
+              - { label: "Weekday", name: "weekday", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Note", name: "note", widget: "string", required: false }
+          - label: "Homework"
+            name: "homework"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Note", name: "note", widget: "string", required: false }

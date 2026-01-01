@@ -1,0 +1,108 @@
+{
+  "site": {
+    "title": "Angela's Secret History",
+    "subtitle": "English + Math learning hub",
+    "weeklyFocus": "Reading fluency and mixed fractions"
+  },
+  "hero": {
+    "title": "Welcome back, superstar.",
+    "text": "All your lessons, homework, and resources in one playful space. Click any card to open links or read notes.",
+    "todayEnglish": "English: Read aloud + write 5 sentences",
+    "todayMath": "Math: Level 4 review quiz"
+  },
+  "english": {
+    "items": [
+      {
+        "type": "Listen",
+        "title": "Story time audio",
+        "note": "",
+        "link": "https://example.com/audio"
+      },
+      {
+        "type": "Read",
+        "title": "Short passage: \"Sunny Day\"",
+        "note": "Read twice, then summarize in 3 sentences.",
+        "link": ""
+      },
+      {
+        "type": "Write",
+        "title": "Journal prompt",
+        "note": "Write about your favorite animal.",
+        "link": ""
+      },
+      {
+        "type": "Speak",
+        "title": "Speak practice",
+        "note": "Record yourself reading the passage.",
+        "link": ""
+      }
+    ]
+  },
+  "math": {
+    "level": "4 - Fractions and decimals",
+    "focus": "Focus: compare, add, subtract",
+    "items": [
+      {
+        "title": "Practice link",
+        "note": "",
+        "link": "https://example.com/math-practice"
+      },
+      {
+        "title": "Notes",
+        "note": "Show your work and check denominators.",
+        "link": ""
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Vocabulary list",
+      "note": "",
+      "link": "https://example.com/vocabulary"
+    },
+    {
+      "title": "Math cheat sheet",
+      "note": "",
+      "link": "https://example.com/math-cheat-sheet"
+    },
+    {
+      "title": "Learning videos",
+      "note": "",
+      "link": "https://example.com/videos"
+    }
+  ],
+  "calendar": [
+    {
+      "day": "12",
+      "weekday": "Mon",
+      "title": "English reading check",
+      "note": "Read passage + 5 new words"
+    },
+    {
+      "day": "14",
+      "weekday": "Wed",
+      "title": "Math quiz",
+      "note": "Mixed fractions (10 questions)"
+    },
+    {
+      "day": "16",
+      "weekday": "Fri",
+      "title": "Speak practice",
+      "note": "Story retell (2 minutes)"
+    }
+  ],
+  "homework": [
+    {
+      "title": "English",
+      "note": "Finish \"Sunny Day\" questions 1-5."
+    },
+    {
+      "title": "Math",
+      "note": "Workbook pages 12-13."
+    },
+    {
+      "title": "Extra",
+      "note": "Practice spelling list (10 words)."
+    }
+  ]
+}
